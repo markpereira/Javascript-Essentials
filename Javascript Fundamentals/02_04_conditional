@@ -1,0 +1,46 @@
+Conditional examples.
+
+if ( condition ) {
+	//code goes here
+	// ...
+};
+
+
+if ( a < 50 ) {
+	// code goes here
+	// condition must boil down to true or false.
+};
+
+if ( c = 99 ) { // single equals is an assigment
+	// code goes here
+	// condition must boil down to true or false.
+};
+
+if ( c == 99 ) {
+	// code goes here
+	// condition must boil down to true or false.
+};
+
+
+if ( c == 99 ) { //exact match
+	// code goes here
+	// condition must boil down to true or false.
+};
+
+if ( c != 99 ) { //not equal to option
+	// code goes here
+	// condition must boil down to true or false.
+};
+
+// example 1
+
+var amount = 500;
+
+if ( amount < 1000) {
+	alert( "It's less than 1000" );
+}
+
+
+// example 2
+
+

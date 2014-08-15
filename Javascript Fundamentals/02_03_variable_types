@@ -1,0 +1,9 @@
+Variable types
+
+var myVariable;
+
+myVariable = 200; // integers
+myVariable = "Hello"; // strings
+myVariable = 'Hello';
+myVariable = true; // booleans
+myVariable = false;

@@ -1,4 +1,17 @@
 Javascript Fundamentals
 	
 	Google apps script
-	
+
+	Browsers
+		- firefox and firebug (allows direct access to javascript)
+
+	Comments
+		// for single line comments. either above the code, or beside the code if it's one line.
+		
+		/*
+			use for multi line comments - best to use to comment out unused code.
+		*/ 	
+
+	Where to place your script tags:
+		- good to place within the body. At the top if you require it to load before the pageloads.
+		- or above the closing body tag.	

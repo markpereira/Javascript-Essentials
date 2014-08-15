@@ -5,11 +5,19 @@ var foo = 30;
 var bar = 20;
 
 if (foo < bar) {
-  console.log("FOO is less than BAR");
+  alert("FOO is less than BAR");
 } else {
   alert ("FOO is not less than BAR");
 };
 
+
+Using the console.xxx to spit the results into the console.
+
+console.log 
+console.debug
+console.info
+console.warn
+console.error
 
 
 

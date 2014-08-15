@@ -1,0 +1,68 @@
+Operators example
+
+var a = 5;
+var b = "5";
+
+if ( a === b ) {
+	alert("Yes they are equal");
+} else {
+	alert("They are not equal");
+}
+
+
+// = assignment
+// == equality
+// === strict equality
+// != not equals
+// !== not strictly equal to
+// (a > b)
+// (a < b)
+// (a >= b)
+// (a <= b)
+// ( (a === b) && (c===d) )  logical 'and'
+// ( (a === b) || (c===d) )  logical 'or'
+
+// all have to respond with true or false.
+
+Modulus
+
+// var year = 2003;
+// var remainder = year % 4 // remainder 3
+
+Increment and Decrement
+a = a + 1;
+a += 1;
+a++;
+++a;
+
+Prefix and Postfix versions of the operators.
+var a = 5;
+alert(++a); will set new value to the variable and then add 1 - so answer will be 6.
+
+var a = 5;
+alert(a++); will provide the alert and then add 1 - so answer will still be 5.
+
+Uninary - works on one operator
+Binary - works on two operators (something on the let, and something on the right)
+
+
+Ternary - works on three -  condition ? true : false (mini if / else statement)
+
+How to turn into ternary operator - example
+
+var playerOne = 500;
+var playerTwo = 600;
+
+//long code
+var highScore =
+
+if (playerOne > playerTwo) {
+	highscore = playerOne;
+} else {
+	highscore = playerTwo;
+}
+
+//short code
+
+var highScore = (playerOne > playerTwo) ? playerOne : playerTwo ;
+

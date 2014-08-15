@@ -14,4 +14,4 @@ Javascript Fundamentals
 
 	Where to place your script tags:
 		- good to place within the body. At the top if you require it to load before the pageloads.
-		- or above the closing body tag.	
+		- or above the closing body tag. 	

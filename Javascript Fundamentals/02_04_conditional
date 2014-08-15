@@ -11,18 +11,18 @@ if ( a < 50 ) {
 	// condition must boil down to true or false.
 };
 
-if ( c = 99 ) { // single equals is an assigment
+if ( c = 99 ) { // single equals is an assigment (assigning)
 	// code goes here
 	// condition must boil down to true or false.
 };
 
-if ( c == 99 ) {
+if ( c == 99 ) { // equality operator (asking)
 	// code goes here
 	// condition must boil down to true or false.
 };
 
 
-if ( c == 99 ) { //exact match
+if ( c == 99 ) { //exact match (strict equality qualifier/check) same value and type
 	// code goes here
 	// condition must boil down to true or false.
 };

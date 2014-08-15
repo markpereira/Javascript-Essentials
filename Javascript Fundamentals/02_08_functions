@@ -1,0 +1,78 @@
+Functions
+
+function myFunction() {
+	console.log("We're in a function");
+		// loops, if statements, anything!
+		// other things
+}
+
+// sometime later
+
+myFunction();
+
+// define all your functions before you call them.
+
+example
+
+function myFunction( x,y ){
+	var myVar = x + y;
+	console.log (myVar);
+}
+
+// call function
+myFunction(700, 320);
+
+function addNumber( x,y ){
+	add = x + y;
+	console.log(add);
+}
+
+addNumber(4,5);
+
+function multiplyNum ( x,y ){
+	result = x * y;
+	console.log(result);
+	return result;
+}
+
+multiplyNum(3288, 40578);
+
+============
+
+Parameter mismatch
+
+function calculateLoan(amount, months, interest, name) {
+	// code
+}
+
+myFunction(10000,60,7,"sam jones");
+myFunction(10000,60,7,"sam jones", "something extra"); // extra ignored
+
+============
+
+Variable scopes
+
+>> inside the function
+
+function simpleFunction() {
+	var foo = 500;
+	console.log(foo);
+}
+
+simpleFunction();
+
+
+>> outside the function
+
+var foo;
+
+function simpleFunction() {
+	foo = 500;
+	console.log(foo,"inside the function");
+}
+
+simpleFunction();
+console.log(foo, "out side the function");
+
+
+============

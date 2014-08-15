@@ -1,0 +1,46 @@
+creating arrays
+
+var singleValue;
+singleValue = 99;
+
+var multipleValUES = [];
+multipleValues[0] = 50;
+multipleValues[1] = 60;
+multipleValues[2] = "Mouse";
+
+console.log(multipleValues[2])
+
+var multipleValues2 = [10, 20, "Cheese"];
+console.log(multipleValues2);
+console.log(multipleValues2.length);
+
+
+==============
+
+creating arrays longhand
+
+var multipleValues = [];
+var multipleValues = Array();
+var multipleValues = Array(5); // create array with number of slot
+
+
+==============
+
+Array methods
+- we know the function, we call it and add some parameters 
+- method is a function that belongs to an object
+
+var multipleValues3 = [10, 20, 30, 40, 50, 60, 70, 80];
+	console.log(multipleValues2);
+	console.log(multipleValues2.length);
+	console.log(multipleValues2.reverse);
+
+var reversedValues = multipleValues.reverse();
+	console.log(reversedValues);
+	console.log(reversedValues.join() );
+
+==============
+
+built in ability to scan through HTML and find something specific to return to.
+myArrayOfLinks = document.getElementByTagName("a");
+

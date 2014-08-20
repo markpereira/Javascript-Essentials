@@ -1,0 +1,85 @@
+Numbers
+
+var x = 200;
+
+Is 200 a integer, large integer, floating point number?
+All JavaScript numbers are 64-bit floating point numbers.
+
+Addition vs Concatenation
+var foo = 5;
+var bar = 5;
+console.log(foo+bar); // 10
+
+var foo = "5";
+var bar = "5";
+console.log(foo+bar); // 55 - best to use for phon numbers to concatenate, not add
+
+var foo = 5;
+var bar = "5";
+console.log(foo+bar); // 55 - one is a string
+
+var foo = 5;
+var bar = "b";
+console.log(foo * bar); // NaN - not a number
+
+//using NAN
+var foo = "55"; // anything between the strings could be "abc"
+var myNumber = Number(foo); // make it a number
+
+if ( isNan(myNumber) ) {
+	console.log("It's NOT a number");
+}
+
+//using !NaN
+var foo = "55"; // anything between the strings could be "abc"
+var myNumber = Number(foo); // make it a number
+
+if ( !isNan(myNumber) ) {
+	console.log("It IS a number");
+}
+
+//Math
+
+var x = 200.6
+var y = Math.round(x); // 201
+
+var a = 200, b = 10000, c = 4;
+var biggest = Math.max(a,b,c);
+var smallest = Math.min(a,b,c);
+
+Math.PI
+function getPi() {
+	return Math.PI
+}
+
+getPi();
+
+
+Math.random();
+Math.sqrt();
+Math.log();
+
+// more examples and playing around
+
+var a = 100, b = 200, c = 40000, d = 7, e = 1044;
+  console.log(a,b,c,d,e);
+
+var biggest = Math.max(a,b,c,d,e);
+  console.log(biggest + " is the largest number" );
+
+var smallest = Math.min(a,b,c,d,e);
+  console.log(smallest + " is the smallest number");
+
+var random = Math.random(a,b,c,d,e);
+console.log(random + " is the random number picked" );
+
+var squareRoot = Math.sqrt(d);
+console.log(squareRoot + " is the square root of " + d);
+
+
+Math.PI
+function getPi() {
+	return Math.PI
+}
+
+console.log( getPi() );
